@@ -1,0 +1,9 @@
+.header {
+    background-color: hsl(30, 78%, 59%); 
+    padding: 20px; 
+    text-align: center; 
+  }
+  
+  .header h1 {
+    color: hsl(27, 93%, 50%);
+  }
