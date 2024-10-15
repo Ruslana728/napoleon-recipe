@@ -4,19 +4,15 @@ h1 {
     font-size: 80px;
 }
 
-p {
-    color: brown;
-    font-size: larger;
-}
-
-table {
-    text-align: center;
-}
-
 body {
     background-color: khaki;
 }
 
 header {
     background-color: navajowhite;
+}
+
+p {
+    color: brown;
+    font-size: larger;
 }
