@@ -8,11 +8,49 @@ body {
     background-color: khaki;
 }
 
-header {
-    background-color: navajowhite;
-}
-
 p {
     color: brown;
     font-size: larger;
 }
+
+header {
+    font-style: italic;
+    background-color: navajowhite;
+    height: 100px;
+    font-size: 50px;
+    color: brown;
+    text-align: center;
+}
+
+main {
+    font-style: italic;
+    background-color: #f7ab42;
+    display: flex;
+    justify-content: flex-start;
+    height: 400px;
+}
+
+article {
+    font-style: italic;
+    background-color: #faf9f5;
+    height: 400px;
+    width: 100%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+aside {
+    font-style: italic;
+    background-color: #7e3b11;
+    height: 400px;
+}
+
+footer {
+    font-style: italic;
+    background-color: navajowhite;
+    height: 100px;
+    font-size: 15px;
+    color: #7e3b11;
+    text-align: center;
+}
+

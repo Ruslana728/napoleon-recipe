@@ -1,22 +1,68 @@
-h1 {
-    color:darkorange;
-    text-align: center;
-    font-size: 80px;
-}
+
 
 p {
+    font-style: italic;
     color: brown;
     font-size: larger;
 }
 
 table {
+    font-style: italic;
     text-align: center;
 }
 
 body {
+    font-style: italic;
     background-color: khaki;
+    margin: 0;
+    padding: 0;
 }
 
 header {
+    font-style: italic;
     background-color: navajowhite;
+    height: 100px;
+    font-size: 50px;
+    color: rgb(78, 43, 8);
+    text-align: center;
+}
+
+
+main {
+    font-style: italic;
+    background-color: #f7ab42;
+    display: flex;
+    justify-content: flex-start;
+    height: 400px;
+}
+
+article {
+    font-style: italic;
+    background-color: #faf9f5;
+    height: 350px;
+    width: 75%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+aside {
+    font-style: italic;
+    background-color: #7e3b11;
+    height: 810px;
+}
+
+footer {
+    font-style: italic;
+    background-color: navajowhite;
+    height: 100px;
+    font-size: 15px;
+    color: rgb(78, 43, 8);
+    text-align: center;
+}
+
+
+h2 {
+    font-style: italic;
+    font-size: 15px;
+    color: azure;
 }
