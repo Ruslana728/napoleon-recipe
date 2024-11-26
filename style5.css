@@ -46,3 +46,29 @@ aside {
     height: 400px;
 }
 
+@keyframes colorChange {
+    0% {
+        background-color: #faad4e; /* Початковий колір */
+    }
+    25% {
+        background-color: #743908; /* Другий колір */
+    }
+    50% {
+        background-color: #ffdec8; /* Третій колір */
+    }
+    75% {
+        background-color: #9f5306; /* Четвертий колір */
+    }
+    100% {
+        background-color: #faad4e; /* Повертаємося до початкового кольору */
+    }
+}
+
+aside {
+    animation: colorChange 5s infinite; /* Анімація з тривалістю 5 секунд */
+    padding: 20px; /* Внутрішні відступи */
+    border-radius: 8px; /* Закруглені кути */
+    color: #fff; /* Колір тексту */
+    transition: color 0.5s; /* Плавний перехід для кольору тексту */
+}
+
